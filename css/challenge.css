@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+.container {
+  border: 4px solid black;
+  width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  position: relative;
+}
+article h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: rgba(238, 238, 238, 0.459);
+}
+.cost {
+  font-weight: bold;
+  font-size: 22px;
+}
+.shipping-type {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgba(105, 105, 105, 0.863);
+}
+a {
+  color: rgb(10, 10, 10);
+}
+a:hover {
+  text-decoration: none;
+}
+article h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+ul {
+  list-style: square;
+}
+button {
+  background-color: black;
+  padding: 8px;
+  border: none;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border-top: 4px solid black;
+}
+.product-heading {
+  padding: 9px;
+}
+ul {
+  margin-left: 25px;
+}
+.shipping-type {
+  margin-bottom: 15px;
+}
+.product-des {
+  margin-bottom: 10px;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+li {
+  margin: 9px 0px;
+}
+.sale-tag {
+  background-color: #ec2f2f;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline;
+  position: absolute;
+  top: -16px;
+  left: -25px;
+  padding: 7px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.colors {
+  margin: 30px 0px 18px 0px;
+}
+.colors > div {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.red-color {
+  background-color: red;
+}
+.pink-color {
+  background-color: pink;
+}
+.violet-color {
+  background-color: violet;
+}
+.black-color {
+  background-color: black;
+}
+.green-color {
+  background-color: green;
+}
+.orange-color {
+  background-color: orange;
+}
+
+/* Using Floats */
+.product-image {
+  float: left;
+  height: 250px;
+}
+.product-catalog {
+  float: left;
+  width: 275px;
+  margin-left: 26px;
+  padding: 18px;
+}
+.product-details {
+  float: right;
+  width: 275px;
+}
+.cost {
+  float: left;
+}
+.shipping-type {
+  float: right;
+  margin-top: 7px;
+}
+.product-des {
+  clear: both;
+}
